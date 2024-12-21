@@ -1,0 +1,56 @@
+
+table tr td {
+    height: 60px;
+}
+
+table tr th#base-profile,
+table tr td.base-profile {
+    padding-left: 25px;
+    text-align: start;
+    width: 28%;
+}
+table tr td.base-profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: start; */
+}
+table tr td.base-profile span.mock-avatar i {
+    display: block;
+    width: 45px;
+    padding: 10px 0;
+    background-color: grey;
+    text-align: center;
+    border-radius: 30px;
+}
+table tr td.base-profile div.teacher-info {
+    width: calc(100% - 45px);
+    padding-left: 10px;
+}
+table tr td.base-profile div.teacher-info p.institute-email {
+    font-size: 0.85rem;
+}
+
+table tr th#subject-name,
+table tr td.subject-name,
+table tr th#grade-id,
+table tr td.grade-id,
+table tr th#request-interaction-status,
+table tr td.request-interaction-status {
+    text-align: start;
+    width: 14%;
+}
+
+table tr th#group-from-subject,
+table tr td.group-from-subject,
+table tr th#view,
+table tr td.view,
+table tr th#add,
+table tr td.add,
+table tr th#update,
+table tr td.update,
+table tr th#delete,
+table tr td.delete {
+    text-align: center;
+    width: 7.5%;
+}
